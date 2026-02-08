@@ -62,42 +62,42 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "Write a brief introduction about yourself here. Include:\n\nYour academic background\nYour interest in data science\nYour career goals\nAny relevant experience or projects"
+    "text": "Hi, my name is Emiliano. I am an international student from Mexico studying Statistics with a Data Science emphasis at Brigham Young University. I am currently in my second semester learning data science, so I am still building my skills and experience.\nI became interested in data science because I enjoy working with numbers, patterns, and using data to understand real problems. I like learning how data can be used to make better decisions.\nMy goal is to continue learning step by step and improve my technical skills. This portfolio shows my progress, what I am learning, and the projects I have worked on so far."
   },
   {
     "objectID": "about.html#background",
     "href": "about.html#background",
     "title": "About Me",
     "section": "",
-    "text": "Write a brief introduction about yourself here. Include:\n\nYour academic background\nYour interest in data science\nYour career goals\nAny relevant experience or projects"
+    "text": "Hi, my name is Emiliano. I am an international student from Mexico studying Statistics with a Data Science emphasis at Brigham Young University. I am currently in my second semester learning data science, so I am still building my skills and experience.\nI became interested in data science because I enjoy working with numbers, patterns, and using data to understand real problems. I like learning how data can be used to make better decisions.\nMy goal is to continue learning step by step and improve my technical skills. This portfolio shows my progress, what I am learning, and the projects I have worked on so far."
   },
   {
     "objectID": "about.html#education",
     "href": "about.html#education",
     "title": "About Me",
     "section": "Education",
-    "text": "Education\n\nStatistics - Data Science Emphasis - BYU, 2028\nRelevant Coursework: Statistics, Data Analysis, Programming, etc."
+    "text": "Education\n\nStatistics – Data Science Emphasis – Brigham Young University (Expected 2028)\nRelevant Coursework: Statistics, Data Analysis, Programming, Probability, and introductory Data Science courses"
   },
   {
     "objectID": "about.html#skills-interests",
     "href": "about.html#skills-interests",
     "title": "About Me",
     "section": "Skills & Interests",
-    "text": "Skills & Interests\n\nTechnical Skills\n\nProgramming: Python\nData Analysis: Pandas, NumPy\nVisualization: Matplotlib, Seaborn\nMachine Learning: Scikit-learn\nTools: Jupyter Notebooks, Git/GitHub\n\n\n\nAreas of Interest\n\n[Your specific interests, e.g., environmental data, healthcare analytics, finance, etc.]\n[Other areas you’re curious about]"
+    "text": "Skills & Interests\n\nTechnical Skills\n\nProgramming: Python\n\nData Analysis: Pandas, NumPy\n\nVisualization: Matplotlib, Seaborn\n\nMachine Learning: Basic use of Scikit-learn\n\nTools: Jupyter Notebooks, Git, GitHub\n\n\n\nAreas of Interest\n\nData analysis and data exploration\n\nLearning how data is used in business and technology\n\nFinance and real-world problem solving with data"
   },
   {
     "objectID": "about.html#goals",
     "href": "about.html#goals",
     "title": "About Me",
     "section": "Goals",
-    "text": "Goals\nDescribe what you hope to achieve through your data science journey:\n\nShort-term learning objectives\nLong-term career aspirations\nTypes of problems you want to solve"
+    "text": "Goals\nIn the short term, I want to strengthen my understanding of statistics, Python, and data analysis. I want to become more comfortable working with datasets and creating clear visualizations.\nIn the long term, my goal is to work in a data-related role where I can use data to help solve real problems and support decision-making. I am especially interested in continuing to learn more about applied data science and analytics."
   },
   {
     "objectID": "about.html#contact",
     "href": "about.html#contact",
     "title": "About Me",
     "section": "Contact",
-    "text": "Contact\n\nEmail: your.email@example.com\nGitHub: github.com/your-username\nLinkedIn: linkedin.com/in/your-profile\n\n\nThis portfolio showcases my learning progress and projects completed during my data science studies."
+    "text": "Contact\n\nEmail: mxesco@byu.edu\nGitHub: https://github.com/EmilianoSantacruz\nLinkedIn: https://linkedin.com/in/emiliano-santacruz\n\n\nThis portfolio reflects my learning journey as a data science student and will continue to grow as I gain more experience."
   },
   {
     "objectID": "projects/data-acquisition.html",
