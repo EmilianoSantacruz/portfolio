@@ -37,11 +37,11 @@ In the short term, I want to strengthen my understanding of statistics, Python, 
 
 In the long term, my goal is to work in a data-related role where I can use data to help solve real problems and support decision-making. I am especially interested in continuing to learn more about applied data science and analytics.
 
-## Contact
+## Contact 
 
-- **Email**: mxesco@byu.edu
-- **GitHub**: https://github.com/EmilianoSantacruz
-- **LinkedIn**: https://linkedin.com/in/emiliano-santacruz
+- **Email**: [mxesco@byu.edu](mxesco@byu.edu)
+- **GitHub**: [github.com/EmilianoSantacruz](https://github.com/EmilianoSantacruz)
+- **LinkedIn**: [linkedin.com/in/emiliano-santacruz](https://linkedin.com/in/emiliano-santacruz)
 
 ---
 
