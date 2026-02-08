@@ -4,45 +4,46 @@ title: "About Me"
 
 ## Background
 
-Write a brief introduction about yourself here. Include:
+Hi, my name is Emiliano. I am an international student from Mexico studying Statistics with a Data Science emphasis at Brigham Young University. I am currently in my second semester learning data science, so I am still building my skills and experience.
 
-- Your academic background
-- Your interest in data science
-- Your career goals
-- Any relevant experience or projects
+I became interested in data science because I enjoy working with numbers, patterns, and using data to understand real problems. I like learning how data can be used to make better decisions.
+
+My goal is to continue learning step by step and improve my technical skills. This portfolio shows my progress, what I am learning, and the projects I have worked on so far.
 
 ## Education
 
-- **Statistics - Data Science Emphasis** - BYU, 2028
-- **Relevant Coursework**: Statistics, Data Analysis, Programming, etc.
+- **Statistics – Data Science Emphasis** – Brigham Young University (Expected 2028)
+- **Relevant Coursework**: Statistics, Data Analysis, Programming, Probability, and introductory Data Science courses
 
 ## Skills & Interests
 
 ### Technical Skills
-- **Programming**: Python
-- **Data Analysis**: Pandas, NumPy
-- **Visualization**: Matplotlib, Seaborn
-- **Machine Learning**: Scikit-learn
-- **Tools**: Jupyter Notebooks, Git/GitHub
+
+- **Programming**: Python  
+- **Data Analysis**: Pandas, NumPy  
+- **Visualization**: Matplotlib, Seaborn  
+- **Machine Learning**: Basic use of Scikit-learn  
+- **Tools**: Jupyter Notebooks, Git, GitHub  
 
 ### Areas of Interest
-- [Your specific interests, e.g., environmental data, healthcare analytics, finance, etc.]
-- [Other areas you're curious about]
+
+- Data analysis and data exploration  
+- Learning how data is used in business and technology  
+- Finance and real-world problem solving with data  
 
 ## Goals
 
-Describe what you hope to achieve through your data science journey:
+In the short term, I want to strengthen my understanding of statistics, Python, and data analysis. I want to become more comfortable working with datasets and creating clear visualizations.
 
-- Short-term learning objectives
-- Long-term career aspirations
-- Types of problems you want to solve
+In the long term, my goal is to work in a data-related role where I can use data to help solve real problems and support decision-making. I am especially interested in continuing to learn more about applied data science and analytics.
 
 ## Contact
 
-- **Email**: your.email@example.com
-- **GitHub**: [github.com/your-username](https://github.com/your-username)
-- **LinkedIn**: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
+- **Email**: mxesco@byu.edu
+- **GitHub**: https://github.com/EmilianoSantacruz
+- **LinkedIn**: https://linkedin.com/in/emiliano-santacruz
 
 ---
 
-*This portfolio showcases my learning progress and projects completed during my data science studies.*
+*This portfolio reflects my learning journey as a data science student and will continue to grow as I gain more experience.*
+
