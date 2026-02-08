@@ -39,7 +39,7 @@ In the long term, my goal is to work in a data-related role where I can use data
 
 ## Contact 
 
-- **Email**: [mxesco@byu.edu](mxesco@byu.edu)
+- **Email**: [mxesco@byu.edu](mailto:mxesco@byu.edu)
 - **GitHub**: [github.com/EmilianoSantacruz](https://github.com/EmilianoSantacruz)
 - **LinkedIn**: [linkedin.com/in/emiliano-santacruz](https://linkedin.com/in/emiliano-santacruz)
 
