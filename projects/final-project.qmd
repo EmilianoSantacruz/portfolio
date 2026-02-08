@@ -1,7 +1,7 @@
 ---
 title: "Final Project"
-author: "Your Name"
-date: "2025-01-01"
+author: "Emiliano Santacruz"
+date: "2026-02-07"
 format:
   html:
     code-fold: true
