@@ -1,3 +1,7 @@
+---
+title: "Blog"
+---
+
 # Cleaning and Analyzing Data with Pandas
 
 ## Introduction
