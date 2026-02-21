@@ -30,81 +30,32 @@
     ]
   },
   {
-    "objectID": "projects/blog.html",
-    "href": "projects/blog.html",
-    "title": "",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to My Data Science Portfolio",
     "section": "",
-    "text": "Code"
+    "text": "Welcome to my data science portfolio! This site shows my journey learning data science and analytics. Here you’ll find projects that demonstrate what I’ve learned and discovered.\n\n\nThis portfolio shows my work learning data science. Each project includes:\n\nMy code with documentation\nVisualizations I created\nWhat I learned and discovered\n\nI built this site using Quarto and host it on GitHub Pages.\n\n\n\n\nProgramming: Python, Pandas for data analysis\nVisualization: Creating charts with Matplotlib and Seaborn\nData Collection: Getting data from files, websites, and APIs\nAnalysis: Finding patterns and answering questions with data\n\n\n\n\n\n\n\nLearn how I explore datasets to find interesting patterns and answer questions.\n\n\n\nSee how I gather data from different sources and prepare it for analysis.\n\n\n\nSee how I tackle a data science project beginning to end.\n\n\n\nThanks for visiting! Feel free to explore my projects and see what I’m learning."
   },
   {
-    "objectID": "projects/blog.html#introduction",
-    "href": "projects/blog.html#introduction",
-    "title": "",
-    "section": "Introduction",
-    "text": "Introduction\nIn many data science projects, the hardest part is not modeling. It is cleaning the data.\nReal datasets often have: - Missing values - Inconsistent column names - Wrong data types - Duplicate rows\nIf we do not clean the data correctly, our analysis can be misleading.\nIn this tutorial, I will show a simple workflow for cleaning and analyzing a dataset using pandas.\nWe will: 1. Load a dataset 2. Inspect it 3. Clean missing values 4. Fix column names 5. Remove duplicates 6. Do a small analysis"
+    "objectID": "index.html#about-this-portfolio",
+    "href": "index.html#about-this-portfolio",
+    "title": "Welcome to My Data Science Portfolio",
+    "section": "",
+    "text": "This portfolio shows my work learning data science. Each project includes:\n\nMy code with documentation\nVisualizations I created\nWhat I learned and discovered\n\nI built this site using Quarto and host it on GitHub Pages."
   },
   {
-    "objectID": "projects/blog.html#setup-import-and-load-data",
-    "href": "projects/blog.html#setup-import-and-load-data",
-    "title": "",
-    "section": "1) Setup: Import and Load Data",
-    "text": "1) Setup: Import and Load Data\nimport pandas as pd\n\ndf = pd.read_csv(\"titanic.csv\")\nIf you do not have this dataset, you can download it from Kaggle or use any CSV file you already have."
+    "objectID": "index.html#skills-im-learning",
+    "href": "index.html#skills-im-learning",
+    "title": "Welcome to My Data Science Portfolio",
+    "section": "",
+    "text": "Programming: Python, Pandas for data analysis\nVisualization: Creating charts with Matplotlib and Seaborn\nData Collection: Getting data from files, websites, and APIs\nAnalysis: Finding patterns and answering questions with data"
   },
   {
-    "objectID": "projects/blog.html#inspect-the-dataset",
-    "href": "projects/blog.html#inspect-the-dataset",
-    "title": "",
-    "section": "2) Inspect the Dataset",
-    "text": "2) Inspect the Dataset\ndf.head()\ndf.info()\ndf.describe()\nThese help you understand: - head() shows the first rows - info() shows column types and missing values - describe() shows summary statistics"
-  },
-  {
-    "objectID": "projects/blog.html#check-for-missing-values",
-    "href": "projects/blog.html#check-for-missing-values",
-    "title": "",
-    "section": "3) Check for Missing Values",
-    "text": "3) Check for Missing Values\ndf.isnull().sum()\nExample: fill missing age values with the median.\ndf[\"Age\"] = df[\"Age\"].fillna(df[\"Age\"].median())"
-  },
-  {
-    "objectID": "projects/blog.html#clean-column-names",
-    "href": "projects/blog.html#clean-column-names",
-    "title": "",
-    "section": "4) Clean Column Names",
-    "text": "4) Clean Column Names\ndf.columns = df.columns.str.lower().str.replace(\" \", \"_\")"
-  },
-  {
-    "objectID": "projects/blog.html#remove-duplicate-rows",
-    "href": "projects/blog.html#remove-duplicate-rows",
-    "title": "",
-    "section": "5) Remove Duplicate Rows",
-    "text": "5) Remove Duplicate Rows\ndf = df.drop_duplicates()"
-  },
-  {
-    "objectID": "projects/blog.html#simple-analysis-example",
-    "href": "projects/blog.html#simple-analysis-example",
-    "title": "",
-    "section": "6) Simple Analysis Example",
-    "text": "6) Simple Analysis Example\nsurvival_rate = df[\"survived\"].mean()\nsurvival_rate\nBecause survived is coded as 0 and 1, the mean gives:\n\\[\n\\text{Survival Rate} = \\frac{\\text{Number of Survivors}}{\\text{Total Passengers}}\n\\]"
-  },
-  {
-    "objectID": "projects/blog.html#grouped-analysis-example",
-    "href": "projects/blog.html#grouped-analysis-example",
-    "title": "",
-    "section": "7) Grouped Analysis Example",
-    "text": "7) Grouped Analysis Example\ndf.groupby(\"sex\")[\"survived\"].mean()"
-  },
-  {
-    "objectID": "projects/blog.html#summary-table-of-the-workflow",
-    "href": "projects/blog.html#summary-table-of-the-workflow",
-    "title": "",
-    "section": "8) Summary Table of the Workflow",
-    "text": "8) Summary Table of the Workflow\n\n\n\n\n\n\n\n\nStep\nWhy it matters\nExample tool\n\n\n\n\nInspect data\nUnderstand structure\nhead(), info()\n\n\nMissing values\nAvoid biased results\nisnull().sum()\n\n\nFill missing\nImprove data quality\nfillna()\n\n\nClean column names\nEasier coding\nstr.lower(), replace()\n\n\nRemove duplicates\nPrevent distortion\ndrop_duplicates()\n\n\nBasic analysis\nGet insights\nmean(), groupby()"
-  },
-  {
-    "objectID": "projects/blog.html#conclusion",
-    "href": "projects/blog.html#conclusion",
-    "title": "",
-    "section": "Conclusion",
-    "text": "Conclusion\nCleaning data is one of the most important skills in data science.\nFollowing a clear structure helps you: - Stay organized - Avoid mistakes - Produce better analysis"
+    "objectID": "index.html#my-projects",
+    "href": "index.html#my-projects",
+    "title": "Welcome to My Data Science Portfolio",
+    "section": "",
+    "text": "Learn how I explore datasets to find interesting patterns and answer questions.\n\n\n\nSee how I gather data from different sources and prepare it for analysis.\n\n\n\nSee how I tackle a data science project beginning to end.\n\n\n\nThanks for visiting! Feel free to explore my projects and see what I’m learning."
   },
   {
     "objectID": "about.html",
@@ -149,32 +100,81 @@
     "text": "Contact\n\nEmail: mxesco@byu.edu\nGitHub: github.com/EmilianoSantacruz\nLinkedIn: linkedin.com/in/emiliano-santacruz\n\n\nThis portfolio reflects my learning journey as a data science student and will continue to grow as I gain more experience."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to My Data Science Portfolio",
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "",
     "section": "",
-    "text": "Welcome to my data science portfolio! This site shows my journey learning data science and analytics. Here you’ll find projects that demonstrate what I’ve learned and discovered.\n\n\nThis portfolio shows my work learning data science. Each project includes:\n\nMy code with documentation\nVisualizations I created\nWhat I learned and discovered\n\nI built this site using Quarto and host it on GitHub Pages.\n\n\n\n\nProgramming: Python, Pandas for data analysis\nVisualization: Creating charts with Matplotlib and Seaborn\nData Collection: Getting data from files, websites, and APIs\nAnalysis: Finding patterns and answering questions with data\n\n\n\n\n\n\n\nLearn how I explore datasets to find interesting patterns and answer questions.\n\n\n\nSee how I gather data from different sources and prepare it for analysis.\n\n\n\nSee how I tackle a data science project beginning to end.\n\n\n\nThanks for visiting! Feel free to explore my projects and see what I’m learning."
+    "text": "Code"
   },
   {
-    "objectID": "index.html#about-this-portfolio",
-    "href": "index.html#about-this-portfolio",
-    "title": "Welcome to My Data Science Portfolio",
-    "section": "",
-    "text": "This portfolio shows my work learning data science. Each project includes:\n\nMy code with documentation\nVisualizations I created\nWhat I learned and discovered\n\nI built this site using Quarto and host it on GitHub Pages."
+    "objectID": "blog.html#introduction",
+    "href": "blog.html#introduction",
+    "title": "",
+    "section": "Introduction",
+    "text": "Introduction\nIn many data science projects, the hardest part is not modeling. It is cleaning the data.\nReal datasets often have: - Missing values - Inconsistent column names - Wrong data types - Duplicate rows\nIf we do not clean the data correctly, our analysis can be misleading.\nIn this tutorial, I will show a simple workflow for cleaning and analyzing a dataset using pandas.\nWe will: 1. Load a dataset 2. Inspect it 3. Clean missing values 4. Fix column names 5. Remove duplicates 6. Do a small analysis"
   },
   {
-    "objectID": "index.html#skills-im-learning",
-    "href": "index.html#skills-im-learning",
-    "title": "Welcome to My Data Science Portfolio",
-    "section": "",
-    "text": "Programming: Python, Pandas for data analysis\nVisualization: Creating charts with Matplotlib and Seaborn\nData Collection: Getting data from files, websites, and APIs\nAnalysis: Finding patterns and answering questions with data"
+    "objectID": "blog.html#setup-import-and-load-data",
+    "href": "blog.html#setup-import-and-load-data",
+    "title": "",
+    "section": "1) Setup: Import and Load Data",
+    "text": "1) Setup: Import and Load Data\nimport pandas as pd\n\ndf = pd.read_csv(\"titanic.csv\")\nIf you do not have this dataset, you can download it from Kaggle or use any CSV file you already have."
   },
   {
-    "objectID": "index.html#my-projects",
-    "href": "index.html#my-projects",
-    "title": "Welcome to My Data Science Portfolio",
-    "section": "",
-    "text": "Learn how I explore datasets to find interesting patterns and answer questions.\n\n\n\nSee how I gather data from different sources and prepare it for analysis.\n\n\n\nSee how I tackle a data science project beginning to end.\n\n\n\nThanks for visiting! Feel free to explore my projects and see what I’m learning."
+    "objectID": "blog.html#inspect-the-dataset",
+    "href": "blog.html#inspect-the-dataset",
+    "title": "",
+    "section": "2) Inspect the Dataset",
+    "text": "2) Inspect the Dataset\ndf.head()\ndf.info()\ndf.describe()\nThese help you understand: - head() shows the first rows - info() shows column types and missing values - describe() shows summary statistics"
+  },
+  {
+    "objectID": "blog.html#check-for-missing-values",
+    "href": "blog.html#check-for-missing-values",
+    "title": "",
+    "section": "3) Check for Missing Values",
+    "text": "3) Check for Missing Values\ndf.isnull().sum()\nExample: fill missing age values with the median.\ndf[\"Age\"] = df[\"Age\"].fillna(df[\"Age\"].median())"
+  },
+  {
+    "objectID": "blog.html#clean-column-names",
+    "href": "blog.html#clean-column-names",
+    "title": "",
+    "section": "4) Clean Column Names",
+    "text": "4) Clean Column Names\ndf.columns = df.columns.str.lower().str.replace(\" \", \"_\")"
+  },
+  {
+    "objectID": "blog.html#remove-duplicate-rows",
+    "href": "blog.html#remove-duplicate-rows",
+    "title": "",
+    "section": "5) Remove Duplicate Rows",
+    "text": "5) Remove Duplicate Rows\ndf = df.drop_duplicates()"
+  },
+  {
+    "objectID": "blog.html#simple-analysis-example",
+    "href": "blog.html#simple-analysis-example",
+    "title": "",
+    "section": "6) Simple Analysis Example",
+    "text": "6) Simple Analysis Example\nsurvival_rate = df[\"survived\"].mean()\nsurvival_rate\nBecause survived is coded as 0 and 1, the mean gives:\n\\[\n\\text{Survival Rate} = \\frac{\\text{Number of Survivors}}{\\text{Total Passengers}}\n\\]"
+  },
+  {
+    "objectID": "blog.html#grouped-analysis-example",
+    "href": "blog.html#grouped-analysis-example",
+    "title": "",
+    "section": "7) Grouped Analysis Example",
+    "text": "7) Grouped Analysis Example\ndf.groupby(\"sex\")[\"survived\"].mean()"
+  },
+  {
+    "objectID": "blog.html#summary-table-of-the-workflow",
+    "href": "blog.html#summary-table-of-the-workflow",
+    "title": "",
+    "section": "8) Summary Table of the Workflow",
+    "text": "8) Summary Table of the Workflow\n\n\n\n\n\n\n\n\nStep\nWhy it matters\nExample tool\n\n\n\n\nInspect data\nUnderstand structure\nhead(), info()\n\n\nMissing values\nAvoid biased results\nisnull().sum()\n\n\nFill missing\nImprove data quality\nfillna()\n\n\nClean column names\nEasier coding\nstr.lower(), replace()\n\n\nRemove duplicates\nPrevent distortion\ndrop_duplicates()\n\n\nBasic analysis\nGet insights\nmean(), groupby()"
+  },
+  {
+    "objectID": "blog.html#conclusion",
+    "href": "blog.html#conclusion",
+    "title": "",
+    "section": "Conclusion",
+    "text": "Conclusion\nCleaning data is one of the most important skills in data science.\nFollowing a clear structure helps you: - Stay organized - Avoid mistakes - Produce better analysis"
   },
   {
     "objectID": "projects/data-acquisition.html",
