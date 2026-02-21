@@ -102,79 +102,79 @@
   {
     "objectID": "blog.html",
     "href": "blog.html",
-    "title": "",
+    "title": "Blog",
     "section": "",
-    "text": "Code"
+    "text": "In many data science projects, the hardest part is not modeling. It is cleaning the data.\nReal datasets often have: - Missing values - Inconsistent column names - Wrong data types - Duplicate rows\nIf we do not clean the data correctly, our analysis can be misleading.\nIn this tutorial, I will show a simple workflow for cleaning and analyzing a dataset using pandas.\nWe will: 1. Load a dataset 2. Inspect it 3. Clean missing values 4. Fix column names 5. Remove duplicates 6. Do a small analysis\n\n\n\n\nimport pandas as pd\n\ndf = pd.read_csv(\"titanic.csv\")\nIf you do not have this dataset, you can download it from Kaggle or use any CSV file you already have.\n\n\n\n\ndf.head()\ndf.info()\ndf.describe()\nThese help you understand: - head() shows the first rows - info() shows column types and missing values - describe() shows summary statistics\n\n\n\n\ndf.isnull().sum()\nExample: fill missing age values with the median.\ndf[\"Age\"] = df[\"Age\"].fillna(df[\"Age\"].median())\n\n\n\n\ndf.columns = df.columns.str.lower().str.replace(\" \", \"_\")\n\n\n\n\ndf = df.drop_duplicates()\n\n\n\n\nsurvival_rate = df[\"survived\"].mean()\nsurvival_rate\nBecause survived is coded as 0 and 1, the mean gives:\n\\[\n\\text{Survival Rate} = \\frac{\\text{Number of Survivors}}{\\text{Total Passengers}}\n\\]\n\n\n\n\ndf.groupby(\"sex\")[\"survived\"].mean()\n\n\n\n\n\n\n\n\n\n\n\n\nStep\nWhy it matters\nExample tool\n\n\n\n\nInspect data\nUnderstand structure\nhead(), info()\n\n\nMissing values\nAvoid biased results\nisnull().sum()\n\n\nFill missing\nImprove data quality\nfillna()\n\n\nClean column names\nEasier coding\nstr.lower(), replace()\n\n\nRemove duplicates\nPrevent distortion\ndrop_duplicates()\n\n\nBasic analysis\nGet insights\nmean(), groupby()\n\n\n\n\n\n\n\nCleaning data is one of the most important skills in data science.\nFollowing a clear structure helps you: - Stay organized - Avoid mistakes - Produce better analysis"
   },
   {
     "objectID": "blog.html#introduction",
     "href": "blog.html#introduction",
-    "title": "",
-    "section": "Introduction",
-    "text": "Introduction\nIn many data science projects, the hardest part is not modeling. It is cleaning the data.\nReal datasets often have: - Missing values - Inconsistent column names - Wrong data types - Duplicate rows\nIf we do not clean the data correctly, our analysis can be misleading.\nIn this tutorial, I will show a simple workflow for cleaning and analyzing a dataset using pandas.\nWe will: 1. Load a dataset 2. Inspect it 3. Clean missing values 4. Fix column names 5. Remove duplicates 6. Do a small analysis"
+    "title": "Blog",
+    "section": "",
+    "text": "In many data science projects, the hardest part is not modeling. It is cleaning the data.\nReal datasets often have: - Missing values - Inconsistent column names - Wrong data types - Duplicate rows\nIf we do not clean the data correctly, our analysis can be misleading.\nIn this tutorial, I will show a simple workflow for cleaning and analyzing a dataset using pandas.\nWe will: 1. Load a dataset 2. Inspect it 3. Clean missing values 4. Fix column names 5. Remove duplicates 6. Do a small analysis"
   },
   {
     "objectID": "blog.html#setup-import-and-load-data",
     "href": "blog.html#setup-import-and-load-data",
-    "title": "",
-    "section": "1) Setup: Import and Load Data",
-    "text": "1) Setup: Import and Load Data\nimport pandas as pd\n\ndf = pd.read_csv(\"titanic.csv\")\nIf you do not have this dataset, you can download it from Kaggle or use any CSV file you already have."
+    "title": "Blog",
+    "section": "",
+    "text": "import pandas as pd\n\ndf = pd.read_csv(\"titanic.csv\")\nIf you do not have this dataset, you can download it from Kaggle or use any CSV file you already have."
   },
   {
     "objectID": "blog.html#inspect-the-dataset",
     "href": "blog.html#inspect-the-dataset",
-    "title": "",
-    "section": "2) Inspect the Dataset",
-    "text": "2) Inspect the Dataset\ndf.head()\ndf.info()\ndf.describe()\nThese help you understand: - head() shows the first rows - info() shows column types and missing values - describe() shows summary statistics"
+    "title": "Blog",
+    "section": "",
+    "text": "df.head()\ndf.info()\ndf.describe()\nThese help you understand: - head() shows the first rows - info() shows column types and missing values - describe() shows summary statistics"
   },
   {
     "objectID": "blog.html#check-for-missing-values",
     "href": "blog.html#check-for-missing-values",
-    "title": "",
-    "section": "3) Check for Missing Values",
-    "text": "3) Check for Missing Values\ndf.isnull().sum()\nExample: fill missing age values with the median.\ndf[\"Age\"] = df[\"Age\"].fillna(df[\"Age\"].median())"
+    "title": "Blog",
+    "section": "",
+    "text": "df.isnull().sum()\nExample: fill missing age values with the median.\ndf[\"Age\"] = df[\"Age\"].fillna(df[\"Age\"].median())"
   },
   {
     "objectID": "blog.html#clean-column-names",
     "href": "blog.html#clean-column-names",
-    "title": "",
-    "section": "4) Clean Column Names",
-    "text": "4) Clean Column Names\ndf.columns = df.columns.str.lower().str.replace(\" \", \"_\")"
+    "title": "Blog",
+    "section": "",
+    "text": "df.columns = df.columns.str.lower().str.replace(\" \", \"_\")"
   },
   {
     "objectID": "blog.html#remove-duplicate-rows",
     "href": "blog.html#remove-duplicate-rows",
-    "title": "",
-    "section": "5) Remove Duplicate Rows",
-    "text": "5) Remove Duplicate Rows\ndf = df.drop_duplicates()"
+    "title": "Blog",
+    "section": "",
+    "text": "df = df.drop_duplicates()"
   },
   {
     "objectID": "blog.html#simple-analysis-example",
     "href": "blog.html#simple-analysis-example",
-    "title": "",
-    "section": "6) Simple Analysis Example",
-    "text": "6) Simple Analysis Example\nsurvival_rate = df[\"survived\"].mean()\nsurvival_rate\nBecause survived is coded as 0 and 1, the mean gives:\n\\[\n\\text{Survival Rate} = \\frac{\\text{Number of Survivors}}{\\text{Total Passengers}}\n\\]"
+    "title": "Blog",
+    "section": "",
+    "text": "survival_rate = df[\"survived\"].mean()\nsurvival_rate\nBecause survived is coded as 0 and 1, the mean gives:\n\\[\n\\text{Survival Rate} = \\frac{\\text{Number of Survivors}}{\\text{Total Passengers}}\n\\]"
   },
   {
     "objectID": "blog.html#grouped-analysis-example",
     "href": "blog.html#grouped-analysis-example",
-    "title": "",
-    "section": "7) Grouped Analysis Example",
-    "text": "7) Grouped Analysis Example\ndf.groupby(\"sex\")[\"survived\"].mean()"
+    "title": "Blog",
+    "section": "",
+    "text": "df.groupby(\"sex\")[\"survived\"].mean()"
   },
   {
     "objectID": "blog.html#summary-table-of-the-workflow",
     "href": "blog.html#summary-table-of-the-workflow",
-    "title": "",
-    "section": "8) Summary Table of the Workflow",
-    "text": "8) Summary Table of the Workflow\n\n\n\n\n\n\n\n\nStep\nWhy it matters\nExample tool\n\n\n\n\nInspect data\nUnderstand structure\nhead(), info()\n\n\nMissing values\nAvoid biased results\nisnull().sum()\n\n\nFill missing\nImprove data quality\nfillna()\n\n\nClean column names\nEasier coding\nstr.lower(), replace()\n\n\nRemove duplicates\nPrevent distortion\ndrop_duplicates()\n\n\nBasic analysis\nGet insights\nmean(), groupby()"
+    "title": "Blog",
+    "section": "",
+    "text": "Step\nWhy it matters\nExample tool\n\n\n\n\nInspect data\nUnderstand structure\nhead(), info()\n\n\nMissing values\nAvoid biased results\nisnull().sum()\n\n\nFill missing\nImprove data quality\nfillna()\n\n\nClean column names\nEasier coding\nstr.lower(), replace()\n\n\nRemove duplicates\nPrevent distortion\ndrop_duplicates()\n\n\nBasic analysis\nGet insights\nmean(), groupby()"
   },
   {
     "objectID": "blog.html#conclusion",
     "href": "blog.html#conclusion",
-    "title": "",
-    "section": "Conclusion",
-    "text": "Conclusion\nCleaning data is one of the most important skills in data science.\nFollowing a clear structure helps you: - Stay organized - Avoid mistakes - Produce better analysis"
+    "title": "Blog",
+    "section": "",
+    "text": "Cleaning data is one of the most important skills in data science.\nFollowing a clear structure helps you: - Stay organized - Avoid mistakes - Produce better analysis"
   },
   {
     "objectID": "projects/data-acquisition.html",
