@@ -10,6 +10,7 @@ In many data science projects, the hardest part is not modeling. It is
 cleaning the data.
 
 Real datasets often have: 
+
 - Missing values 
 - Inconsistent column names 
 - Wrong data types
@@ -21,6 +22,7 @@ In this tutorial, I will show a simple workflow for cleaning and
 analyzing a dataset using **pandas**.
 
 We will: 
+
 1. Load a dataset
 2. Inspect it
 3. Clean missing values
